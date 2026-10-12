@@ -242,3 +242,58 @@ button:disabled { cursor: not-allowed; opacity: .7; }
   .technology-card { padding: 18px; }
   .add-button { font-size: 11px; }
 }
+
+
+/* Desktop: hide hamburger button */
+.mobile-menu-button {
+  display: none;
+}
+
+/* Desktop navigation */
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+/* Mobile navigation */
+@media (max-width: 768px) {
+  .mobile-menu-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 8px;
+  }
+
+  .mobile-menu-button span {
+    display: block;
+    width: 24px;
+    height: 2px;
+    background: currentColor;
+  }
+
+  .nav-links {
+    display: none;
+  }
+
+  .nav-links.nav-links-open {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    padding: 20px;
+    background: white;
+    gap: 18px;
+    z-index: 100;
+  }
+
+  .navbar {
+    position: relative;
+  }
+}
