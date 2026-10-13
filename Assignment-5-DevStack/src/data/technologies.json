@@ -1,0 +1,17 @@
+[
+  { "id": 1, "name": "React", "category": "Frontend", "description": "Build interactive user interfaces with reusable components.", "icon": "⚛️", "color": "#e0f7ff" },
+  { "id": 2, "name": "TypeScript", "category": "Language", "description": "Write safer JavaScript with helpful static types.", "icon": "🔷", "color": "#e7efff" },
+  { "id": 3, "name": "JavaScript", "category": "Language", "description": "Bring dynamic behavior and logic to web applications.", "icon": "🟨", "color": "#fff6cc" },
+  { "id": 4, "name": "Node.js", "category": "Backend", "description": "Run JavaScript on the server and build APIs.", "icon": "🟢", "color": "#e7f8e8" },
+  { "id": 5, "name": "Express", "category": "Backend", "description": "Create flexible web servers and REST APIs.", "icon": "🚂", "color": "#f1f1f1" },
+  { "id": 6, "name": "MongoDB", "category": "Database", "description": "Store application data in a flexible document database.", "icon": "🍃", "color": "#e6f8e9" },
+  { "id": 7, "name": "PostgreSQL", "category": "Database", "description": "Use a powerful relational database for structured data.", "icon": "🐘", "color": "#e7f1ff" },
+  { "id": 8, "name": "Tailwind CSS", "category": "Styling", "description": "Style interfaces quickly with utility-first CSS classes.", "icon": "🎨", "color": "#ddf8ff" },
+  { "id": 9, "name": "HTML5", "category": "Frontend", "description": "Structure accessible content for the web.", "icon": "🧱", "color": "#fff0e6" },
+  { "id": 10, "name": "CSS3", "category": "Styling", "description": "Create polished layouts, animations, and responsive designs.", "icon": "💅", "color": "#eeeaff" },
+  { "id": 11, "name": "Git", "category": "Tools", "description": "Track changes and collaborate on source code.", "icon": "🌿", "color": "#ffebe7" },
+  { "id": 12, "name": "GitHub", "category": "Tools", "description": "Host repositories and work together with developers.", "icon": "🐙", "color": "#f1edff" },
+  { "id": 13, "name": "Docker", "category": "DevOps", "description": "Package apps and their dependencies into containers.", "icon": "🐳", "color": "#e4f5ff" },
+  { "id": 14, "name": "Vite", "category": "Tools", "description": "Enjoy fast development and optimized production builds.", "icon": "⚡", "color": "#fff0d8" },
+  { "id": 15, "name": "Next.js", "category": "Frontend", "description": "Build full-stack React apps with routing and rendering tools.", "icon": "▲", "color": "#eeeeee" }
+]
